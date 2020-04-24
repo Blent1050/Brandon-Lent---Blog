@@ -19,6 +19,11 @@ const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
       <nav className={cn(styles.nav, showNav && styles.showNav)}>
         <ul>
           <li>
+            <a style={{cursor: 'pointer'}} href='https://brandon-lent.com'>
+              Portfolio
+            </a>
+          </li>
+          <li>
             <Link to='/archive/'>Archive</Link>
           </li>
         </ul>
